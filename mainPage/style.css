@@ -1,0 +1,71 @@
+body{
+    background-color: #c3c3c3;
+    font-family: 'Cascadia Code';
+    background-image: URL('./photo/backgound.jpg');
+    background-size: 100% 210%;
+    /* background-repeat: no-repeat; */
+}
+
+/* this is nav styling code */
+nav{
+    display:flex ;
+    width: 100%;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+nav .navFirst{
+    margin-left: 20px;
+    display: flex;
+}
+.navFirst p:first-child{
+    margin-right: 12px;
+}
+.navFirst p:last-child{
+    color: #e01c24;
+    font-weight: bold;
+}
+nav div:nth-child(2){
+    font-size: 1.3em;
+    border: 5px solid black;
+    padding:0px 100px 0px 100px;
+    font-family: 'Cascadia Code';
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: white;
+    line-height: 0px;
+}
+/* ========================== */
+/* Hero page starts here */
+
+.heroPage{
+    display: flex;
+    justify-content: space-around;
+}
+.heroPage .leftBox{
+    padding-right: 10px;
+}
+.heroPage .rightBox img{
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.3);
+}
+.heroPage .leftBox p:first-child{
+    font-weight: bold;
+}
+.heroPage .leftBox p:last-child{
+    border: 3px solid black;
+    display: inline-block;
+    margin-top: 20%;
+    padding:5px 20px;
+    border-radius: 10px;
+}
+/* setting up down arrow button */
+
+.villanPage img{
+    position: absolute;
+    bottom:20px;
+    left: 50%;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
