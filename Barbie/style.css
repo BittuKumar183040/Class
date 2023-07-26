@@ -1,0 +1,50 @@
+body{
+    background-color: pink;
+}
+.TopImage{
+    background-image: url(./images/barbie.jpg);
+    height: 80%;
+    margin-bottom: 0px;
+}
+.TopImage div{
+    text-align: right;
+}
+.TopImage div p:first-child{
+ color: #fff;
+ background-color: black;
+ display:inline-block;
+ padding:5px 20px ;
+ margin-right: 80px;
+ margin-bottom: 8px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size:40px;
+}
+.TopImage div p:last-child{
+ color: white;
+ margin-right: 60px;
+ margin-top: 0;
+}
+#MiddleImage{
+    color:dark blue;
+    position:absolute;
+    top :70%; left:5%
+}   
+.BottomImage {
+background-color: rgba(129, 129, 113, 0.986);
+margin-top: 0px;
+}
+.BottomImage p:first-child{
+    color:white;
+    text-align:center;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    padding: 25px 0;
+    margin: 0 50px;
+
+}
+.BottomImage p:last-child{
+    color: white;
+    text-align:center;
+    font-size: 20px;
+    padding-bottom:25px  ;
+}
