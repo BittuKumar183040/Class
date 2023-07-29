@@ -1,0 +1,94 @@
+.box{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+body{
+    background-color: rgb(212, 253, 189);
+    overflow: hidden;
+}
+#ui, #ux{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+#ui{
+    background-color: rgb(66, 202, 84);
+    position: relative;
+    left: 5%;
+}
+#ux{
+    background-color: rgb(231, 85, 48);
+    position: relative;
+    left: -5%;
+}
+span{
+    position: relative;
+    left:-30%;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+/* ================== */
+/* session styles stars here! */
+.session{
+    text-align: center;
+    background-color: #fff;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#heading{
+    font-size: 40px;
+    color: #61696b;
+}
+#dsc{
+    padding: 4px;
+    font-size: 20px;
+    line-height: 30px;
+}
+#ref{
+    padding:10px 30px;
+    font-size: 20px;
+    background-color: rgb(73, 103, 187);
+    color:white;
+    display: inline-block;
+    border-radius: 40px;
+    
+}
+#circleBtm{
+    position: absolute;
+    top: 50%;
+    left: -85%;
+    background-color: rgb(110, 168, 255);
+    height: 2500px;
+    width: 1500px;
+    border-radius: 50%;
+    z-index:-1;
+}
+#circleTop{
+    position: absolute;
+    top:-88%;
+    left: 55%;
+    background-color: rgb(110, 168, 255);
+    height: 950px;
+    width: 950px;
+    border-radius: 50%;
+    z-index:-1;
+}
