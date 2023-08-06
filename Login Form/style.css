@@ -11,13 +11,28 @@
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
     text-align: center;
     background-color: antiquewhite;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
     padding: 10px 0;
     width: 270px;
+   
+    animation-name:doremon;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: linear; 
+  
+}
+@keyframes doremon {
+    from{
+        transform: translate(-50% ,-50%) rotate(0deg) scale(25);
+    }
+    
+    to{
+        transform: translate(-50% ,-50%) rotate(360deg) scale(1);
+    }
 }
 input{
     margin: 15px 0;
@@ -35,9 +50,197 @@ input{
     height: 40px;
     width: 80px;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 2s;
+  
+    top:5px;
+    left: 5px;
 }
+
+
 
 .middleText input:last-child:hover{
     border: 2px solid #000000;
 }
+
+.topSection{
+    animation-name: login;
+    animation-duration:1s ;
+    animation-iteration-count:1 ;
+    animation-fill-mode: linear;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@keyframes login {
+    from{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }  
+}
+.toy input:first-child {
+    animation-name: name;
+    animation-duration:2.5s ;
+    animation-iteration-count:1 ;
+    animation-fill-mode: linear;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@keyframes name {
+    from{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    } 
+    }
+    .toy input:nth-child(2) {
+        animation-name: class;
+        animation-duration :2.5s ;
+        animation-iteration-count:1 ;
+        animation-fill-mode: linear;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+@keyframes class {
+        from{
+            transform: translateX(50px);
+            opacity: 0;
+        }
+        
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+        }  
+        .toy input:nth-child(3) {
+            animation-name: roll;
+            animation-duration :2.5s ;
+            animation-iteration-count:1 ;
+            animation-fill-mode: linear;
+            animation-delay: 5s;
+            animation-fill-mode: forwards;
+            opacity: 0;
+        }
+@keyframes roll {
+            from{
+                transform: translateX(-50px);
+                opacity: 0;
+            }
+            
+            to{
+                transform: translateX(0px);
+                opacity: 1;
+            }
+            } 
+            .toy input:last-child{
+                animation-name: mob;
+                animation-duration :3s ;
+                animation-iteration-count:1 ;
+                animation-fill-mode: linear;
+                animation-delay: 5s;
+                animation-fill-mode: forwards;
+                opacity: 0;
+            }
+                @keyframes mob {
+                from{
+                    transform: translateX(50px);
+                    opacity: 0;
+                }
+                
+                to{
+                    transform: translateX(0px);
+                    opacity: 1;
+                }
+                }   
+                .middleText input:first-child{
+                    animation-name: date;
+                    animation-duration :3s ;
+                    animation-iteration-count:1 ;
+                    animation-fill-mode: linear;
+                    animation-delay: 5s;
+                    animation-fill-mode: forwards;
+                    opacity: 0;
+                }
+                         @keyframes date {
+                     
+                        from{
+                            transform: translateX(-50px);
+                            opacity: 0;
+                        }
+                        
+                        to{
+                            transform: translateX(0px);
+                            opacity: 1;
+                        }
+                        }     
+                        .middleText input:last-child{
+                            animation-name: submit;
+                            animation-duration :3s ;
+                            animation-iteration-count:1 ;
+                            animation-fill-mode: linear;
+                            animation-delay: 5s;
+                            animation-fill-mode: forwards;
+                            opacity: 0;
+                        }
+                        @keyframes submit {
+                     
+                            from{
+                                transform: translateX(50px);
+                                opacity: 0;
+                            }
+                            
+                            to{
+                                transform: translateX(0px);
+                                opacity: 1;
+                            }
+                            }     
+                            .bottomText p:first-child{
+                                animation-name: forget;
+                                animation-duration :3s ;
+                                animation-iteration-count:1 ;
+                                animation-fill-mode: linear;
+                                animation-delay: 5s;
+                                animation-fill-mode: forwards;
+                                opacity: 0;
+                            }
+                            @keyframes forget{
+                            from{
+                                transform: translateX(50px);
+                                opacity: 0;
+                            }
+                            
+                            to{
+                                transform: translateX(0px);
+                                opacity: 1;
+                            }
+                            }     
+                            .bottomText p:last-child{
+                                animation-name: account;
+                                animation-duration :3s ;
+                                animation-iteration-count:1 ;
+                                animation-fill-mode: linear;
+                                animation-delay: 5s;
+                                animation-fill-mode: forwards;
+                                opacity: 0;
+                            }
+                            @keyframes account{
+                                from{
+                                    transform: translateX(-50px);
+                                    opacity: 0;
+                                }
+                                
+                                to{
+                                    transform: translateX(0px);
+                                    opacity: 1;
+                                }
+                                }     
